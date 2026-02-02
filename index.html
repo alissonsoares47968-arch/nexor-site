@@ -4,33 +4,33 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#6D28D9" />
-  <meta name="description" content="Nexor Premium — tickets profissionais, automações inteligentes e auditoria avançada. Ative por Pix e transforme seu servidor." />
+  <meta name="description" content="Nexor Premium — automações inteligentes, tickets profissionais e auditoria avançada. Ative por Pix e transforme seu servidor." />
   <title>Nexor Premium</title>
 
   <link rel="stylesheet" href="./styles.css" />
 </head>
 
 <body>
-  <!-- Topbar -->
-  <header class="topbar">
-    <div class="container topbar__inner">
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__inner">
       <a class="brand" href="#top" aria-label="Nexor Premium">
         <span class="brand__dot"></span>
         <span class="brand__name">Nexor</span>
-        <span class="brand__tag">Premium</span>
+        <span class="brand__badge">Premium</span>
       </a>
 
       <nav class="nav">
         <a href="#recursos">Recursos</a>
         <a href="#premium">Premium</a>
-        <a href="#como-funciona">Como ativar</a>
+        <a href="#ativacao">Ativação</a>
         <a href="#faq">FAQ</a>
       </nav>
 
-      <div class="actions">
+      <div class="header__actions">
         <a class="btn btn--ghost" href="https://discord.gg/PcBawDgXRW" target="_blank" rel="noreferrer">Suporte</a>
         <a class="btn btn--primary" href="https://discord.com/oauth2/authorize?client_id=1467877990779326484&permissions=8&integration_type=0&scope=bot+applications.commands" target="_blank" rel="noreferrer">
-          Adicionar Nexor
+          Adicionar bot
         </a>
       </div>
 
@@ -42,7 +42,7 @@
     <div class="mobile" id="mobileMenu" aria-hidden="true">
       <a href="#recursos">Recursos</a>
       <a href="#premium">Premium</a>
-      <a href="#como-funciona">Como ativar</a>
+      <a href="#ativacao">Ativação</a>
       <a href="#faq">FAQ</a>
       <div class="mobile__cta">
         <a class="btn btn--ghost" href="https://discord.gg/PcBawDgXRW" target="_blank" rel="noreferrer">Abrir suporte</a>
@@ -56,44 +56,43 @@
     <section class="hero">
       <div class="container hero__grid">
         <div class="hero__copy">
-          <div class="kicker">
-            <span class="kicker__pill">Plano único</span>
-            <span class="kicker__sep">•</span>
-            <span class="kicker__text">R$ 9,90/mês (calendário)</span>
+          <div class="pill">
+            <span class="pill__dot"></span>
+            <span>Plano único • R$ 9,90/mês (calendário) • Pix</span>
           </div>
 
-          <h1>O padrão premium para<br/>servidores que levam<br/><span class="grad">organização a sério.</span></h1>
+          <h1>O padrão premium para<br/>servidores que exigem<br/><span class="grad">controle e eficiência.</span></h1>
 
           <p class="lead">
             Nexor Premium combina <strong>tickets profissionais</strong>, <strong>automações inteligentes</strong> e <strong>auditoria avançada</strong>
             em uma experiência minimalista, elegante e confiável.
           </p>
 
-          <div class="hero__cta">
+          <div class="cta">
             <a class="btn btn--primary btn--lg" href="https://discord.com/oauth2/authorize?client_id=1467877990779326484&permissions=8&integration_type=0&scope=bot+applications.commands" target="_blank" rel="noreferrer">
               Adicionar Nexor
             </a>
-            <a class="btn btn--ghost btn--lg" href="#premium">Ver o Premium</a>
+            <a class="btn btn--ghost btn--lg" href="#premium">Ver Premium</a>
           </div>
 
-          <div class="stats">
-            <div class="stat">
-              <span class="stat__k">Ativação</span>
-              <span class="stat__v">Pix (QR + Copia e Cola)</span>
+          <div class="signals">
+            <div class="signal">
+              <span class="signal__k">Ativação</span>
+              <span class="signal__v">Pix (QR + Copia e Cola)</span>
             </div>
-            <div class="stat">
-              <span class="stat__k">Modelo</span>
-              <span class="stat__v">SaaS com bloqueio inteligente</span>
+            <div class="signal">
+              <span class="signal__k">Modelo</span>
+              <span class="signal__v">Bloqueio inteligente (C1)</span>
             </div>
-            <div class="stat">
-              <span class="stat__k">Suporte</span>
-              <span class="stat__v">Discord + Email</span>
+            <div class="signal">
+              <span class="signal__k">Suporte</span>
+              <span class="signal__v">Discord + Email</span>
             </div>
           </div>
 
-          <div class="trustline">
-            <span>Sem webhook</span><span class="dot">•</span>
-            <span>Sem burocracia</span><span class="dot">•</span>
+          <div class="micro">
+            <span>Sem webhook</span><span class="micro__dot">•</span>
+            <span>Sem burocracia</span><span class="micro__dot">•</span>
             <span>Experiência premium</span>
           </div>
         </div>
@@ -102,16 +101,14 @@
           <div class="card">
             <div class="card__top">
               <div class="avatar">
-                <img src="./assets/bot.png" alt="Nexor bot" />
+                <img src="./assets/bot.png" alt="Nexor Bot" />
               </div>
-
               <div class="card__meta">
                 <div class="card__title">Nexor Premium</div>
                 <div class="card__sub">Tickets • Automations • Audit</div>
               </div>
-
-              <div class="badgeOnline">
-                <span class="badgeOnline__dot"></span>
+              <div class="online">
+                <span class="online__dot"></span>
                 <span>Online</span>
               </div>
             </div>
@@ -119,7 +116,7 @@
             <div class="card__grid">
               <div class="mini">
                 <div class="mini__k">Nexor Builder</div>
-                <div class="mini__v">Editor visual + Preview</div>
+                <div class="mini__v">Editor visual + preview</div>
               </div>
               <div class="mini">
                 <div class="mini__k">Automations</div>
@@ -127,21 +124,17 @@
               </div>
               <div class="mini">
                 <div class="mini__k">Tickets PRO</div>
-                <div class="mini__v">SLA + Fila</div>
+                <div class="mini__v">SLA + fila + macros</div>
               </div>
               <div class="mini">
                 <div class="mini__k">Audit Timeline</div>
-                <div class="mini__v">Time-travel + Export</div>
+                <div class="mini__v">Histórico + export</div>
               </div>
             </div>
 
             <div class="card__actions">
-              <a class="btn btn--primary btn--block" href="https://discord.gg/PcBawDgXRW" target="_blank" rel="noreferrer">
-                Ativar pelo Discord
-              </a>
-              <a class="btn btn--ghost btn--block" href="mailto:soaresstore2026@gmail.com">
-                Contato: soaresstore2026@gmail.com
-              </a>
+              <a class="btn btn--primary btn--block" href="https://discord.gg/PcBawDgXRW" target="_blank" rel="noreferrer">Ativar pelo Discord</a>
+              <a class="btn btn--ghost btn--block" href="mailto:soaresstore2026@gmail.com">Contato: soaresstore2026@gmail.com</a>
             </div>
           </div>
 
@@ -151,84 +144,76 @@
       </div>
     </section>
 
-    <!-- VALUE -->
-    <section class="section section--thin">
-      <div class="container value">
-        <div class="value__item">
-          <h3>Experiência premium</h3>
-          <p>Layout minimalista, respostas claras e configuração sem bagunça.</p>
-        </div>
-        <div class="value__item">
-          <h3>Automação real</h3>
-          <p>Regras inteligentes que reduzem esforço e aumentam controle.</p>
-        </div>
-        <div class="value__item">
-          <h3>Operação profissional</h3>
-          <p>Tickets com qualidade, auditoria e dados para decisões melhores.</p>
-        </div>
+    <!-- TRUST -->
+    <section class="strip">
+      <div class="container strip__inner">
+        <span>Minimalista</span><span class="sep">•</span>
+        <span>Seguro</span><span class="sep">•</span>
+        <span>Escalável</span><span class="sep">•</span>
+        <span>Pronto para vender</span>
       </div>
     </section>
 
-    <!-- FEATURES -->
+    <!-- RECURSOS -->
     <section class="section" id="recursos">
       <div class="container">
         <div class="head">
-          <h2>O que o Nexor entrega</h2>
-          <p>Um bot completo para organizar atendimento, automatizar rotinas e elevar o padrão do servidor.</p>
+          <h2>Recursos que realmente elevam o servidor</h2>
+          <p>Operação profissional no Discord: automação, atendimento e transparência — com experiência premium.</p>
         </div>
 
         <div class="grid3">
           <article class="tile">
             <div class="tile__icon">◻</div>
-            <h3>Tickets</h3>
-            <p>Atendimento organizado com painéis, categorias, permissões e transcrição.</p>
+            <h3>Tickets avançados</h3>
+            <p>Categorias, permissões, logs e organização de atendimento do jeito certo.</p>
             <span class="tag">CORE + PREMIUM</span>
           </article>
 
           <article class="tile">
             <div class="tile__icon">⟡</div>
             <h3>Automações</h3>
-            <p>Crie regras: se acontecer X e condição Y, o Nexor executa ações automaticamente.</p>
+            <p>Regras: se acontecer X, com condição Y, execute Z automaticamente.</p>
             <span class="tag tag--premium">PREMIUM</span>
           </article>
 
           <article class="tile">
             <div class="tile__icon">◎</div>
             <h3>Auditoria</h3>
-            <p>Histórico confiável de ações e mudanças (perfeito para transparência).</p>
+            <p>Histórico confiável de ações, mudanças e operações — com filtros e export.</p>
             <span class="tag tag--premium">PREMIUM</span>
           </article>
 
           <article class="tile">
             <div class="tile__icon">▦</div>
             <h3>Tickets PRO</h3>
-            <p>SLA, fila inteligente, prioridade, macros e relatórios de atendimento.</p>
+            <p>SLA, prioridade, fila inteligente, macros e relatórios semanais.</p>
             <span class="tag tag--premium">PREMIUM</span>
           </article>
 
           <article class="tile">
             <div class="tile__icon">⟠</div>
-            <h3>Proteção</h3>
-            <p>Anti-raid inteligente, quarentena e alertas quando houver anomalias.</p>
+            <h3>Nexor Shield</h3>
+            <p>Anti-raid inteligente com quarentena e alertas automáticos.</p>
             <span class="tag tag--premium">PREMIUM</span>
           </article>
 
           <article class="tile">
             <div class="tile__icon">◈</div>
-            <h3>Insights</h3>
-            <p>Analytics do servidor e do atendimento: horários, volume e performance.</p>
+            <h3>Nexor Insights</h3>
+            <p>Analytics reais: horários de pico, volume, performance e tendências.</p>
             <span class="tag tag--premium">PREMIUM</span>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- PREMIUM PRICING -->
+    <!-- PREMIUM -->
     <section class="section section--alt" id="premium">
       <div class="container">
         <div class="head">
           <h2>Nexor Premium</h2>
-          <p>Um plano. Tudo incluso. Simples de comprar, fácil de entender.</p>
+          <p>Um plano. Tudo incluso. Simples de entender, fácil de vender.</p>
         </div>
 
         <div class="pricing">
@@ -244,12 +229,12 @@
             </div>
 
             <div class="pricing__list">
-              <div class="check">✔ Nexor Builder (visual + templates)</div>
-              <div class="check">✔ Nexor Automations (IFTTT)</div>
+              <div class="check">✔ Builder visual + templates</div>
+              <div class="check">✔ Automações (IFTTT)</div>
               <div class="check">✔ Tickets PRO (SLA + fila + relatório)</div>
-              <div class="check">✔ Audit Timeline (diff + export)</div>
-              <div class="check">✔ Nexor Shield (anti-raid)</div>
-              <div class="check">✔ Nexor Insights (analytics)</div>
+              <div class="check">✔ Audit Timeline (filtros + export)</div>
+              <div class="check">✔ Shield (anti-raid inteligente)</div>
+              <div class="check">✔ Insights (analytics)</div>
             </div>
 
             <div class="pricing__cta">
@@ -257,40 +242,35 @@
                 Ativar pelo Discord
               </a>
               <a class="btn btn--ghost btn--lg btn--block" href="https://discord.com/oauth2/authorize?client_id=1467877990779326484&permissions=8&integration_type=0&scope=bot+applications.commands" target="_blank" rel="noreferrer">
-                Adicionar Nexor primeiro
+                Adicionar bot primeiro
               </a>
-              <p class="fine">
-                Email: <a href="mailto:soaresstore2026@gmail.com">soaresstore2026@gmail.com</a>
-              </p>
+              <p class="fine">Email: <a href="mailto:soaresstore2026@gmail.com">soaresstore2026@gmail.com</a></p>
             </div>
           </div>
 
           <div class="pricing__side">
             <div class="sideBox">
               <h3>Bloqueio inteligente (C1)</h3>
-              <p>Se expirar, o bot não sai do servidor. Somente recursos premium ficam bloqueados.</p>
+              <p>Se expirar, o bot não sai do servidor. Apenas recursos premium ficam bloqueados.</p>
             </div>
-
             <div class="sideBox">
-              <h3>Ativação por Pix</h3>
-              <p>Você gera o QR ou Copia e Cola no Discord, paga e confirma automaticamente.</p>
+              <h3>Transparência</h3>
+              <p>Plano mensal por calendário. Sem taxas escondidas. Você renova quando quiser.</p>
             </div>
-
             <div class="sideBox">
-              <h3>Para quem é</h3>
-              <ul>
-                <li>Servidores com suporte e atendimento</li>
-                <li>Comunidades que querem automação real</li>
-                <li>Quem precisa de auditoria e transparência</li>
-              </ul>
+              <h3>Contato rápido</h3>
+              <p>
+                Discord: <a class="u" href="https://discord.gg/PcBawDgXRW" target="_blank" rel="noreferrer">discord.gg/PcBawDgXRW</a><br/>
+                Email: <a class="u" href="mailto:soaresstore2026@gmail.com">soaresstore2026@gmail.com</a>
+              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- HOW TO ACTIVATE -->
-    <section class="section" id="como-funciona">
+    <!-- ATIVAÇÃO -->
+    <section class="section" id="ativacao">
       <div class="container">
         <div class="head">
           <h2>Como ativar</h2>
@@ -301,39 +281,43 @@
           <div class="step">
             <div class="step__n">1</div>
             <div class="step__c">
-              <h3>Adicionar o Nexor</h3>
-              <p>Instale o bot no seu servidor com permissões de administrador.</p>
+              <h3>Instale o bot</h3>
+              <p>Adicione o Nexor no servidor com permissões de administrador.</p>
             </div>
           </div>
 
           <div class="step">
             <div class="step__n">2</div>
             <div class="step__c">
-              <h3>Gerar Pix</h3>
-              <p>No painel Premium, gere um Pix de R$ 9,90 (QR + Copia e Cola).</p>
+              <h3>Gere o Pix</h3>
+              <p>No painel Premium, gere o Pix de R$ 9,90 (QR + Copia e Cola).</p>
             </div>
           </div>
 
           <div class="step">
             <div class="step__n">3</div>
             <div class="step__c">
-              <h3>Pagar</h3>
-              <p>Pague pelo seu banco. O Nexor verifica por consulta, sem webhook.</p>
+              <h3>Pague</h3>
+              <p>Pague pelo seu banco. O Nexor valida automaticamente por consulta.</p>
             </div>
           </div>
 
           <div class="step">
             <div class="step__n">4</div>
             <div class="step__c">
-              <h3>Confirmar</h3>
-              <p>Clique em “Já paguei”. Quando aprovar, o Premium é liberado automaticamente.</p>
+              <h3>Confirme</h3>
+              <p>Clique em “Já paguei”. Quando aprovar, o Premium é liberado na hora.</p>
             </div>
           </div>
         </div>
 
-        <div class="activateCta">
-          <a class="btn btn--primary btn--lg" href="https://discord.com/oauth2/authorize?client_id=1467877990779326484&permissions=8&integration_type=0&scope=bot+applications.commands" target="_blank" rel="noreferrer">Adicionar Nexor</a>
-          <a class="btn btn--ghost btn--lg" href="https://discord.gg/PcBawDgXRW" target="_blank" rel="noreferrer">Abrir suporte</a>
+        <div class="centerCta">
+          <a class="btn btn--primary btn--lg" href="https://discord.com/oauth2/authorize?client_id=1467877990779326484&permissions=8&integration_type=0&scope=bot+applications.commands" target="_blank" rel="noreferrer">
+            Adicionar Nexor
+          </a>
+          <a class="btn btn--ghost btn--lg" href="https://discord.gg/PcBawDgXRW" target="_blank" rel="noreferrer">
+            Abrir suporte
+          </a>
         </div>
       </div>
     </section>
@@ -363,12 +347,7 @@
           </details>
 
           <details>
-            <summary>O que eu preciso para ativar?</summary>
-            <p>Adicionar o bot no servidor e usar o painel Premium. O pagamento é Pix de R$ 9,90.</p>
-          </details>
-
-          <details>
-            <summary>Como eu falo com suporte?</summary>
+            <summary>Como falar com suporte?</summary>
             <p>Entre no Discord ou envie email para soaresstore2026@gmail.com</p>
           </details>
         </div>
@@ -376,28 +355,17 @@
     </section>
   </main>
 
+  <!-- Footer clean (sem logo grande) -->
   <footer class="footer">
-    <div class="container footer__inner">
-      <div class="footer__left">
-        <div class="brand brand--footer">
-          <span class="brand__dot"></span>
-          <span class="brand__name">Nexor</span>
-          <span class="brand__tag">Premium</span>
-        </div>
-        <p class="fine">© <span id="year"></span> Nexor. Todos os direitos reservados.</p>
-      </div>
-
-      <div class="footer__right">
-        <a href="mailto:soaresstore2026@gmail.com">soaresstore2026@gmail.com</a>
-        <span class="sep">•</span>
+    <div class="container footer__inner footer__center">
+      <p class="fine">
+        © <span id="year"></span> Nexor •
+        <a href="mailto:soaresstore2026@gmail.com">soaresstore2026@gmail.com</a> •
         <a href="https://discord.gg/PcBawDgXRW" target="_blank" rel="noreferrer">Discord</a>
-      </div>
+      </p>
     </div>
   </footer>
 
   <script src="./script.js"></script>
 </body>
 </html>
-<img src="./assets/bot.png">
-<link rel="stylesheet" href="./styles.css">
-<script src="./script.js"></script>
